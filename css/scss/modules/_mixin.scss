@@ -1,0 +1,22 @@
+
+@mixin get_transition($obj,$time,$type_m){
+	-webkit-transition: $obj $time $type_m;
+	-moz-transition: $obj $time $type_m;
+	-o-transition: $obj $time $type_m;
+	transition: $obj $time $type_m;
+}
+
+@mixin awesomeIcon($ct,$cl,$fs){
+	content: $ct;
+	font-family: FontAwesome;
+	position: absolute;
+	color: $cl;
+	font-size: $fs;
+}
+
+@mixin position($type,$top,$left,$right){
+	position: $type;
+	top: $top;
+	left: $left;
+	right: $right;
+}
