@@ -482,14 +482,7 @@ header {
 @media (min-width: 768px) and (max-width: 991px) {
   header .slide-control-prev, header .slide-control-next {
     display: none;
-    margin-left: 0px; }
-  header .unit_2-1 {
-    width: 90%;
-    top: 65px;
-    font-size: 14px; }
-  header .unit_3-1, header .unit_3-2 {
-    top: 65px;
-    width: 35%; } }
+    margin-left: 0px; } }
 @media (max-width: 991px) {
   header .wrapper {
     padding: 0px; }
@@ -514,13 +507,14 @@ header {
     top: 20px; }
   header .unit_2-1 {
     width: 90%;
-    top: 65px; }
+    top: 65px;
+    font-size: 14px; }
   header .unit_3-0 {
     font-size: 30px;
     top: 20px; }
   header .unit_3-1, header .unit_3-2 {
     top: 65px;
-    width: 40%; }
+    width: 35%; }
   header .unit_4-0 {
     font-size: 30px;
     top: 20px; }
