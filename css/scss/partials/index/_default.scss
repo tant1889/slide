@@ -5,7 +5,7 @@ header{
 	.wrapper{
 		width: 100%;
 		height: 340px;
-		padding: 0 130px;	
+		padding: 0 150px;	
 	}
 	.slide{
 		width: 100%;
@@ -188,17 +188,16 @@ header{
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		left: 100px;
-		box-shadow: 3px 9px 13px -6px rgba(0,0,0,0.75);
+		left: 80px;
 	}
 	.unit_0-1{		
 		font-size: 40px;
-		@include position(absolute,50px,45%,initial);
+		@include position(absolute,60px,40%,initial);
 		margin-left: -26px;
 	}
 	.unit_0-2{
 		font-size: 18px;
-		@include position(absolute,110px,45%,initial);
+		@include position(absolute,120px,40%,initial);
 		.have-icon{
 			&:before{
 				@include awesomeIcon('\f073',#333,18px);
@@ -209,7 +208,7 @@ header{
 	}	
 	.unit_0-3{
 		font-size: 18px;
-		@include position(absolute,140px,45%,initial);
+		@include position(absolute,150px,40%,initial);
 		.have-icon{
 			&:before{
 				@include awesomeIcon('\f2be',#333,18px);
@@ -220,7 +219,7 @@ header{
 	}	
 	.unit_0-4{
 		font-size: 18px;
-		@include position(absolute,170px,45%,initial);
+		@include position(absolute,180px,40%,initial);
 		.have-icon{
 			&:before{
 				@include awesomeIcon('\f095',#333,18px);
@@ -231,7 +230,7 @@ header{
 	}	
 	.unit_0-5{
 		font-size: 18px;
-		@include position(absolute,200px,45%,initial);
+		@include position(absolute,210px,40%,initial);
 		.have-icon{
 			&:before{
 				@include awesomeIcon('\f0e0',#333,18px);
@@ -242,7 +241,7 @@ header{
 	}	
 	.unit_0-6{
 		font-size: 18px;
-		@include position(absolute,230px,45%,initial);
+		@include position(absolute,240px,40%,initial);
 		.have-icon{
 			&:before{
 				@include awesomeIcon('\f041',#333,18px);
