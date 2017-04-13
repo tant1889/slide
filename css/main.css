@@ -461,6 +461,9 @@ header {
     right: initial;
     width: 90%; }
 
+.ui-loader {
+  display: none; }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   header .unit_0-0 {
     left: 3%; }
@@ -597,9 +600,10 @@ header {
       font-size: 18px;
       top: 15px; }
     header .unit_2-1 {
-      width: 95%;
+      width: 100%;
       top: 40px;
-      font-size: 13px; }
+      font-size: 13px;
+      padding-right: 22px; }
     header .unit_3-0 {
       font-size: 18px;
       top: 15px; }
