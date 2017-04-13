@@ -473,7 +473,12 @@ header {
   header .unit_1-2 {
     width: 40%; }
   header .unit_1-3 {
-    width: 40%; } }
+    width: 40%; }
+  header .unit_2-1 {
+    width: 90%;
+    font-size: 14px; }
+  header .unit_3-1, header .unit_3-2 {
+    width: 35%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   header .slide-control-prev, header .slide-control-next {
     display: none;
