@@ -44,6 +44,9 @@
 .add-leaveToLeft {
 	animation: leaveToLeft 0.5s ease-in forwards;
 }
+.add-fade {
+	animation: fade 0.5s ease-in forwards;
+}
 
 @keyframes zoomUnit {
 	0% { transform: scale(1.1)}
@@ -58,6 +61,11 @@
 @keyframes rotateAndMoveRightUnit {
 	0% { transform: translateY(-50%) translateX(0px) rotate(0deg); opacity: 1 }
 	100% { transform: translateY(-50%) translateX(100px) rotate(250deg); opacity: 0}
+}
+
+@keyframes fade {
+	0% { transform: translateY(-50%) translateX(0); opacity: 1 }
+	100% { transform: translateY(-50%) translateX(0); opacity: 0}
 }
 
 @keyframes moveFromTop {
@@ -93,4 +101,3 @@
 	0% { transform: translateX(0); opacity: 1 }
 	100% { transform: translateX(-100px); opacity: 0 }
 }
-

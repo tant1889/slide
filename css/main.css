@@ -44,6 +44,9 @@
 .add-leaveToLeft {
   animation: leaveToLeft 0.5s ease-in forwards; }
 
+.add-fade {
+  animation: fade 0.5s ease-in forwards; }
+
 @keyframes zoomUnit {
   0% {
     transform: scale(1.1); }
@@ -61,6 +64,13 @@
     opacity: 1; }
   100% {
     transform: translateY(-50%) translateX(100px) rotate(250deg);
+    opacity: 0; } }
+@keyframes fade {
+  0% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1; }
+  100% {
+    transform: translateY(-50%) translateX(0);
     opacity: 0; } }
 @keyframes moveFromTop {
   0% {
@@ -562,16 +572,16 @@ header {
   header {
     padding-top: 40px; }
     header .wrapper {
-      height: 360px; }
+      height: 400px; }
     header .unit_0-0 {
-      left: 35%;
+      left: 25%;
       transform: translateX(-50%) translateY(0);
-      top: 68px;
-      width: 110px;
-      height: 110px; }
+      top: 80px;
+      width: 120px;
+      height: 120px; }
     header .unit_0-1 {
       font-size: 20px;
-      top: 135px;
+      top: 155px;
       left: 20px;
       margin-left: 0px; }
     header .unit_0-2, header .unit_0-3, header .unit_0-4, header .unit_0-5, header .unit_0-6 {
@@ -580,21 +590,21 @@ header {
       header .unit_0-2 .have-icon:before, header .unit_0-3 .have-icon:before, header .unit_0-4 .have-icon:before, header .unit_0-5 .have-icon:before, header .unit_0-6 .have-icon:before {
         font-size: 14px; }
     header .unit_0-2 {
-      top: 170px; }
+      top: 190px; }
     header .unit_0-3 {
-      top: 200px; }
+      top: 220px; }
     header .unit_0-4 {
-      top: 230px; }
+      top: 250px; }
     header .unit_0-5 {
-      top: 260px; }
+      top: 280px; }
     header .unit_0-6 {
-      top: 290px; }
+      top: 310px; }
     header .unit_1-0, header .unit_1-1 {
       font-size: 18px;
       top: 15px; }
     header .unit_1-2, header .unit_1-3 {
-      width: 45%;
-      top: 40px;
+      width: 42%;
+      top: 58px;
       font-size: 13px; }
     header .unit_2-0 {
       font-size: 18px;
@@ -604,6 +614,8 @@ header {
       top: 40px;
       font-size: 13px;
       padding-right: 22px; }
+      header .unit_2-1 p {
+        margin-bottom: 4px; }
     header .unit_3-0 {
       font-size: 18px;
       top: 15px; }

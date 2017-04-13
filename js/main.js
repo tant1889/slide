@@ -15,7 +15,7 @@ $(document).ready(function(){
 	}
 
 	var GroupClassName_first_0 = ["add-zoomUnitFromZero","add-moveFromTop","add-moveFromRightToLeft","add-moveFromRightToLeftDelay100","add-moveFromRightToLeftDelay200","add-moveFromRightToLeftDelay300","add-moveFromRightToLeftDelay400"],
-	 	GroupClassName_last_0 = ["add-rotateAndMoveRightUnit","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight"],
+	 	GroupClassName_last_0 = ["add-fade","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight","add-leaveToRight"],
 
 		GroupClassName_first_1 = ["add-moveFromTop","add-moveFromTop","add-moveFromLeftToRight","add-moveFromRightToLeft"],
 		GroupClassName_last_1 = ["add-leaveToLeft","add-leaveToRight","add-leaveToLeft","add-leaveToRight"],
