@@ -1,12 +1,26 @@
 @media (min-width: 768px) and (max-width: 991px) {
-	
+	header{
+		.slide-control-prev,.slide-control-next{
+			display: none;
+			margin-left: 0px;
+		}
+		.unit_2-1{
+			width: 90%;
+			top: 65px;
+			font-size: 14px;
+		}
+		.unit_3-1,.unit_3-2{
+			top: 65px;
+			width: 35%;
+		}
+	}
 }
 
 @media (max-width: 991px) {
 	header{
 		.wrapper{
 			padding: 0px;
-		}
+		}	
 		.slide-control-prev{
 			left: -50px;
 		}

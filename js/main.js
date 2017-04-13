@@ -2,7 +2,7 @@
 $(document).ready(function(){	
 
 	var slideLength,
-	timeOn = 3000;
+	timeOn = 15000;
 	timeUp = timeOn-400;
 	timeBar = (timeOn-500)/1000;
 	slideLength = $('.slide-items .item').length-1;
