@@ -1,0 +1,49 @@
+@media (min-width: 576px) and (max-width: 767px) {
+	
+}
+
+@media (max-width: 767px) {
+	header{
+		
+		.slide-control-prev,.slide-control-next{
+			display: none;
+			margin-left: 0px;
+		}
+
+		.unit_0-0{
+			left: 5%;
+			width: 160px;
+			height: 160px;
+		}
+		.unit_0-1{
+			font-size: 25px;
+			top: 69px;
+		}
+
+		.unit_1-0,.unit_1-1{
+			font-size: 25px;
+		}
+		.unit_1-2,.unit_1-3{
+			width: 45%;
+			top: 65px;			
+		}
+
+		.unit_2-0{
+			font-size: 25px;
+			top:20px;
+		}
+		.unit_2-1{
+			width: 90%;
+			top: 54px;
+			font-size: 15px;
+		}
+
+		.unit_3-0{
+			font-size: 25px;
+		}
+
+		.unit_4-0,.unit_4-2{
+			font-size: 25px;
+		}
+	}
+}

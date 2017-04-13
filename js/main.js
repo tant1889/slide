@@ -2,7 +2,7 @@
 $(document).ready(function(){	
 
 	var slideLength,
-	timeOn = 13000;
+	timeOn = 3000;
 	timeUp = timeOn-400;
 	timeBar = (timeOn-500)/1000;
 	slideLength = $('.slide-items .item').length-1;
@@ -158,6 +158,9 @@ $(document).ready(function(){
 		if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ){
 			//console.log("ie");
 		}
+		else if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
+			// Do something in Firefox
+		}
 		else{
 			for (let i = 0; i <= slideLength; i++){
 				if( $('.slide-items .item').eq(i).hasClass('active') === true ){
@@ -180,6 +183,9 @@ $(document).ready(function(){
 	$([window, document]).on('blur', function() { // stop slide animation when is on other tab or anything else
 		if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ){
 			//console.log("ie");
+		}
+		else if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
+			// Do something in Firefox
 		}
 	    else{
 	    	clearAllSetTimeoutFunc();

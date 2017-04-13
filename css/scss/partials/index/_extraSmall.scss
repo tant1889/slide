@@ -1,0 +1,93 @@
+@media (max-width: 575px) {
+	header{
+		padding-top: 40px;
+		.wrapper{
+			height: 360px;
+		}
+		
+		.unit_0-0{
+			left: 35% ;
+			transform: translateX(-50%) translateY(0);
+			top: 68px;
+			width: 110px;
+			height: 110px;
+		}
+		.unit_0-1{
+			font-size: 20px;
+			top: 135px;
+			left: 20px;
+			margin-left: 0px;
+		}
+		.unit_0-2,.unit_0-3,.unit_0-4,.unit_0-5,.unit_0-6{
+			font-size: 14px;
+			left: 45px;
+			.have-icon{
+				&:before{
+					font-size: 14px;
+				}
+			}	
+		}
+		.unit_0-2{
+			top: 170px;
+		}
+		.unit_0-3{
+			top: 200px;
+		}
+		.unit_0-4{
+			top: 230px;
+		}
+		.unit_0-5{
+			top: 260px;
+		}
+		.unit_0-6{
+			top: 290px;
+		}
+
+		.unit_1-0,.unit_1-1{
+			font-size: 18px;
+			top: 15px;
+		}
+		.unit_1-2,.unit_1-3{
+			width: 45%;
+			top: 40px;	
+			font-size: 13px;		
+		}
+
+		.unit_2-0{
+			font-size: 18px;
+			top: 15px;
+		}
+		.unit_2-1{
+			width: 95%;
+			top: 40px;
+			font-size: 13px;
+		}
+
+		.unit_3-0{
+			font-size: 18px;
+			top: 15px;
+		}
+		.unit_3-1,.unit_3-2{
+			top: 40px;
+			width: 43%;
+			font-size: 13px;
+		}
+
+		.unit_4-0{
+			font-size: 18px;
+			top: 15px;
+		}
+		.unit_4-1{
+			top: 45px;
+			font-size: 14px;
+		}
+		.unit_4-2{
+			font-size: 18px;
+			top: 100px;
+		}
+		.unit_4-3{
+			top: 130px;
+			font-size: 14px;
+		}
+	}
+}

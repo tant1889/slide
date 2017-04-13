@@ -1,0 +1,70 @@
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (max-width: 991px) {
+	header{
+		.wrapper{
+			padding: 0px;
+		}
+		.slide-control-prev{
+			left: -50px;
+		}
+		.slide-control-next{		
+			right: -50px;
+		}
+		
+		.unit_0-0{
+			left: 5%;
+		}
+		.unit_0-1{
+			font-size: 30px;
+		}
+		.unit_0-2,.unit_0-3,.unit_0-4,.unit_0-5,.unit_0-6{
+			font-size: 16px;
+		}
+
+		.unit_1-0,.unit_1-1{
+			font-size: 30px;
+			top:20px;
+		}
+		.unit_1-2,.unit_1-3{
+			width: 40%;
+			top: 65px;			
+		}		
+
+		.unit_2-0{
+			font-size: 30px;
+			top:20px;
+		}
+		.unit_2-1{
+			width: 90%;
+			top: 65px;
+		}
+
+		.unit_3-0{
+			font-size: 30px;
+			top:20px;
+		}
+		.unit_3-1,.unit_3-2{
+			top: 65px;
+			width: 40%;
+		}
+
+		.unit_4-0{
+			font-size: 30px;
+			top: 20px;
+		}
+		.unit_4-1{
+			top: 65px;
+		}
+		.unit_4-2{
+			font-size: 30px;
+			top: 115px;
+		}
+		.unit_4-3{
+			top: 165px;
+			width: 90%;
+		}
+	}
+}
